@@ -1,0 +1,30 @@
+{
+  "context": "client",
+  "identifier": "nl.pa.Pwn4two.pwn4two_map_pack",
+  "display_name": "Pwn4two's Teamplay Map Pack",
+  "description": "A selection of unique and fun maps, created by Pwn4two for you!",
+  "author": "Pwn4two",
+  "version": "1.0",
+  "build": "86765",
+  "date": "2015/10/11",
+  "signature": "not yet implemented",
+  "forum": "https://forums.uberent.com/threads/pwn4twos-map-pack.70689/",
+  "icon": "http://i.imgur.com/3PjTqKk.png",
+  "category": [
+	  "map",
+	  "pack",
+	  "maps",
+	  "system",
+	  "planets",
+	  "planet",
+	  "systems"
+    ],
+    "load_planet": [
+        "coui://UI/mods/pwn4two/maplist.js"
+    ],
+	"priority": 100,
+    "enabled": true,
+    "dependencies": [
+        "com.pa.conundrum.cShareSystems"
+    ]
+}
